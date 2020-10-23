@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { addTodo } from '../actions';
 
 import TodoForm from './TodoForm';
+import TodoItem from './TodoItem';
 
 const TodoApp = ({ todos, addTodo }) => {
   const [todo, setTodo] = useState(''); 
@@ -30,6 +31,11 @@ const TodoApp = ({ todos, addTodo }) => {
           onChange={onChange} 
           onAddTodo={onAddTodo} 
         />
+        <div className="todo-list">
+          {
+            todos.map(todo => <TodoItem todo={todo} />)
+          }
+        </div>
       </div>
     </div>
   )

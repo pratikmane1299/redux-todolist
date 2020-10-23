@@ -52,3 +52,14 @@
   opacity: 0.8;
 }
 
+.todo-list {
+  margin-top: 0.5rem;
+}
+
+.todo-item {
+  padding: 0.5rem;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  display: flex;
+}
+

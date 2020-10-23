@@ -9,9 +9,9 @@
   * [x] Create action, action creator and modify state to add a todo.
   * [x] Add `ADD_TODO` action to `mapDispatchToProps` and pass as prop to `TodoForm` component.
   * [x] On form submit, dispatch add todo action.
-* [ ] Display todos.
-  * [ ] Iterate over todos and render todo text.
-  * [ ] Create `TodoItem` component and pass todo as prop.
+* [x] Display todos.
+  * [x] Iterate over todos and render todo text.
+  * [x] Create `TodoItem` component and pass todo as prop.
 * [ ] Toggle todo as complete.
   * [ ] Create toggle todo action, action creator and update a todo.
   * [ ] Add `TOGGLE_COMPLETE` action to`mapDispatchToProps` and pass as prop to `TodoItem` component.
