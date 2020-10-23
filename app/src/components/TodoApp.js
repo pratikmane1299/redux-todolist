@@ -33,7 +33,7 @@ const TodoApp = ({ todos, addTodo }) => {
         />
         <div className="todo-list">
           {
-            todos.map(todo => <TodoItem todo={todo} />)
+            todos.map(todo => <TodoItem todo={todo} key={todo.id} />)
           }
         </div>
       </div>
