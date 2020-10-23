@@ -22,3 +22,7 @@
   * [x] Add `DELETE_TODO` action to `mapDispatchToProps` and pass as prop to `TodoItem` component.
   * [x] Add Delete button in `TodoItem` component.
   * [x] On delete, dispatch delete todo action.
+
+# License
+
+This repository and the code inside it is licensed under the MIT License. Read [LICENSE](./LICENSE) for more information.
