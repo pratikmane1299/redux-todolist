@@ -2,8 +2,8 @@
 
 * [x] Bootstrap react app.
 * [x] Install Dependencies.
-* [ ] Create redux store and root reducer.
-* [ ] Create `TodoApp` container component and connect to redux store.
+* [x] Create redux store and root reducer.
+* [x] Create `TodoApp` container component and connect to redux store.
 * [ ] Add New todo.
   * [ ] Create `TodoForm` component.
   * [ ] Create action, action creator and modify state to add a todo.
