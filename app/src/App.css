@@ -73,3 +73,20 @@
   text-decoration: line-through;
 }
 
+.todo-delete-btn {
+  margin-left: auto;
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #d32727;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.todo-delete-btn:hover {
+  opacity: 0.8;
+}
+

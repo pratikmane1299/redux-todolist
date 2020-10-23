@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { connect } from 'react-redux'
 
-import { addTodo, toggleComplete } from '../actions';
+import { addTodo, toggleComplete, deleteTodo } from '../actions';
 
 import TodoForm from './TodoForm';
 import TodoItem from './TodoItem';
 
-const TodoApp = ({ todos, addTodo, toggleComplete }) => {
+const TodoApp = ({ todos, addTodo, toggleComplete, deleteTodo }) => {
   const [todo, setTodo] = useState(''); 
 
   const onChange = (e) => {
@@ -26,6 +26,10 @@ const TodoApp = ({ todos, addTodo, toggleComplete }) => {
     toggleComplete(id);
   }
 
+  const onDelete = (id) => {
+    deleteTodo(id);
+  }
+
   return (
     <div className="container">
       <div className="app">
@@ -41,7 +45,8 @@ const TodoApp = ({ todos, addTodo, toggleComplete }) => {
               <TodoItem 
                 todo={todo} 
                 key={todo.id} 
-                onChecked={() => onToggle(todo.id)} 
+                onChecked={() => onToggle(todo.id)}
+                onDelete={onDelete}
               />
             ))
           }
@@ -57,6 +62,6 @@ const mapStateToProps = (state) => ({
 
 export default connect(
   mapStateToProps,
-  { addTodo, toggleComplete }
+  { addTodo, toggleComplete, deleteTodo }
 )(TodoApp);
 

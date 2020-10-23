@@ -18,7 +18,7 @@
   * [x] Add checkbox in `TodoItem` component.
   * [x] On checked/unchecked, dispatch update todo action.
 * Delete a todo.
-  * [ ] Create delete todo action, action creator and delete a todo.
-  * [ ] Add `DELETE_TODO` action to `mapDispatchToProps` and pass as prop to `TodoItem` component.
-  * [ ] Add Delete button in `TodoItem` component.
-  * [ ] On delete, dispatch delete todo action.
+  * [x] Create delete todo action, action creator and delete a todo.
+  * [x] Add `DELETE_TODO` action to `mapDispatchToProps` and pass as prop to `TodoItem` component.
+  * [x] Add Delete button in `TodoItem` component.
+  * [x] On delete, dispatch delete todo action.
