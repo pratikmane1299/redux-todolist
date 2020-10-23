@@ -61,5 +61,15 @@
   border: 1px solid #eeeeee;
   border-radius: 4px;
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.todo-item span {
+  margin-left: 0.4rem;
+}
+
+.completed {
+  text-decoration: line-through;
 }
 

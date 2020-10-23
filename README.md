@@ -12,11 +12,11 @@
 * [x] Display todos.
   * [x] Iterate over todos and render todo text.
   * [x] Create `TodoItem` component and pass todo as prop.
-* [ ] Toggle todo as complete.
-  * [ ] Create toggle todo action, action creator and update a todo.
-  * [ ] Add `TOGGLE_COMPLETE` action to`mapDispatchToProps` and pass as prop to `TodoItem` component.
-  * [ ] Add checkbox in `TodoItem` component.
-  * [ ] On checked/unchecked, dispatch update todo action.
+* [x] Toggle todo as complete.
+  * [x] Create toggle todo action, action creator and update a todo.
+  * [x] Add `TOGGLE_COMPLETE` action to`mapDispatchToProps` and pass as prop to `TodoItem` component.
+  * [x] Add checkbox in `TodoItem` component.
+  * [x] On checked/unchecked, dispatch update todo action.
 * Delete a todo.
   * [ ] Create delete todo action, action creator and delete a todo.
   * [ ] Add `DELETE_TODO` action to `mapDispatchToProps` and pass as prop to `TodoItem` component.

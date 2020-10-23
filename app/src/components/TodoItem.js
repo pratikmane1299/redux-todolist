@@ -1,9 +1,10 @@
 import React from 'react'
 
-function TodoItem({ todo }) {
+function TodoItem({ todo, onChecked }) {
   return (
     <div className="todo-item">
-      <span>{todo.text}</span>
+      <input type="checkbox" value={todo.completed} onChange={onChecked} />
+      <span className={todo.completed ? 'completed' : null}>{todo.text}</span>
     </div>
   )
 }
