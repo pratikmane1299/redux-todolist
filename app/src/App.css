@@ -7,6 +7,7 @@
 }
 
 .app {
+  padding: 1rem;
   width: 400px;
   height: 400px;
   border-radius: 4px;
@@ -18,5 +19,36 @@
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
+}
+
+.todo-form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.add-todo-btn {
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #0fc40f;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-todo-btn:hover {
+  opacity: 0.8;
 }
 

@@ -4,11 +4,11 @@
 * [x] Install Dependencies.
 * [x] Create redux store and root reducer.
 * [x] Create `TodoApp` container component and connect to redux store.
-* [ ] Add New todo.
-  * [ ] Create `TodoForm` component.
-  * [ ] Create action, action creator and modify state to add a todo.
-  * [ ] Add `ADD_TODO` action to `mapDispatchToProps` and pass as prop to `TodoForm` component.
-  * [ ] On form submit, dispatch add todo action.
+* [x] Add New todo.
+  * [x] Create `TodoForm` component.
+  * [x] Create action, action creator and modify state to add a todo.
+  * [x] Add `ADD_TODO` action to `mapDispatchToProps` and pass as prop to `TodoForm` component.
+  * [x] On form submit, dispatch add todo action.
 * [ ] Display todos.
   * [ ] Iterate over todos and render todo text.
   * [ ] Create `TodoItem` component and pass todo as prop.
